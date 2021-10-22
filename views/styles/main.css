@@ -1,0 +1,156 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu {
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+
+.menu ul li {
+  text-align: center;
+}
+
+nav .menu ul {
+  display: none;
+}
+
+nav.show .menu {
+  visibility: visible;
+  opacity: 1;
+
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  place-content: center;
+}
+
+nav.show .menu ul {
+  display: grid;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+nav.show .menu a {
+  font-size: 1.35rem;
+  color: #fff;
+}
+
+.logo {
+  color: #fff;
+  display: inline-block;
+  padding: 0.625rem 0rem;
+  font-size: 1.75rem;
+  margin-left: 1rem;
+}
+
+.logo-color {
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+.toggle {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.icon-menu,
+.icon-close {
+  font-size: 2rem;
+}
+
+.icon-menu {
+  margin-right: 1rem;
+}
+
+nav .icon-close {
+  visibility: hidden;
+  opacity: 0;
+  margin-left: 1.25rem;
+  position: absolute;
+}
+
+nav.show .icon-close {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#home,
+#about,
+#albun,
+#movies,
+#social {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#home {
+  background-image: url('../img/homeImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 30px;
+}
+
+.container-content {
+  width: 96%;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 30px 15px 10px;
+}
