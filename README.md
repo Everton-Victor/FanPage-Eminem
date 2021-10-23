@@ -1,4 +1,4 @@
-# WebPage-Eminem
+# FanPage-Eminem
 Site simples para praticar conhecimentos adiquiridos, apenas o Frontend! 
 Esse site é baseado no cantor Eminem, mostrando as informações dele obtidas no Wikipédia.
 Esse site tem como intuito apenas praticar os conceitos de HTML5 e CSS3.
