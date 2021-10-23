@@ -79,6 +79,21 @@ nav.show .menu a {
   color: #fff;
 }
 
+.img {
+  width: 20rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .img {
+  position: absolute;
+  bottom: 0;
+}
+
 .logo {
   color: #fff;
   display: inline-block;
