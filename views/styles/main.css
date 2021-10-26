@@ -83,15 +83,32 @@ nav.show .menu a {
   width: 20rem;
 }
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.content .img {
+#home .img {
   position: absolute;
   bottom: 0;
+}
+
+.content {
+  position: relative;
+  text-align: justify;
+  padding: 1rem;
+  margin: auto;
+}
+
+.container-content {
+  width: 98%;
+  height: 98%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 30px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content p {
+  font-size: 1.2rem;
 }
 
 .logo {
@@ -156,32 +173,80 @@ nav.show .icon-close {
   flex-direction: column;
 }
 
-#home {
+#social {
   background-image: url('../img/homeImg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 30px;
 }
 
-.container-content {
+#home {
+  margin-top: 44px;
+}
+
+.container-home {
   width: 96%;
-  height: 90%;
-  background-color: rgba(255, 255, 255, 0.5);
+  height: 97%;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   padding: 30px 15px 10px;
   text-align: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .titulo {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1.5px 1.5px 1px #fff;
+  text-shadow: 2px 2px 3px #eee;
 }
 
 .subtitulo {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.content a {
+  display: block;
+  margin: 1.5rem;
+  text-align: center;
+
+  padding: 1.5rem;
+
+  border-radius: 20px;
+  background: #000;
+  color: #eee;
+  transition: 0.5s;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-icon i {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.content a:hover {
+  color: #000;
+  background: #eee;
+}
+
+.content ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.content ul li {
+  padding: 0.2rem;
 }
