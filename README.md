@@ -9,6 +9,7 @@ Esse site tem como intuito apenas praticar os conceitos de HTML5 e CSS3.
 ## Tecnologias usada no desenvolvimento
 - HTML5
 - CSS3
+- JS
 
 ## Licença
 LICENSE
