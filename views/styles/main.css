@@ -98,7 +98,7 @@ nav.show .menu a {
 .container-content {
   width: 98%;
   height: 98%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 30px 15px 10px;
   display: flex;
@@ -187,7 +187,7 @@ nav.show .icon-close {
 .container-home {
   width: 96%;
   height: 97%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.911);
   border-radius: 10px;
   padding: 30px 15px 10px;
   text-align: center;
@@ -201,7 +201,7 @@ nav.show .icon-close {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 2px 2px 3px #eee;
+  text-shadow: 2px 2px 3px #555;
 }
 
 .subtitulo {
